@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Pompeji";
+  src: url("fonts/PompejiPetit.ttf");
+}
+
+body {
+  background-color: #218D66;
+}
+
+header {
+  background-color: #1B7350;
+  color: #CD8059;
+  font-family: "Pompeji";
+  font-size: 5em;
+  text-align: center;
+  text-shadow: RGBA(194, 98, 73, 0.6) 0.03em 0.03em 0.03em;
+}
+
+main {
+  font-size: 1.4em;
+}
+
+main h1 {
+  color: #23110B;
+  /* color: #DFDDDB; */
+  font-size: 2em;
+  /* text-shadow: black 0.04em 0.04em 0.04em; */
+}
+
+main p {
+  color: black;
+}
+
+main hr {
+  /* border: 1px solid #CD8059; */
+  border-top: 1px solid #CD8059;
+  border-bottom: 1px solid #C26249;
+  border-right: 1px solid #C26249;
+  border-left: 1px solid #C26249;
+}
+
+footer {
+  background-color: #184F30;
+  color: #CD8059;
+  font-family: monospace;
+  font-size: 1.2em;
+  text-align: center;
+}
